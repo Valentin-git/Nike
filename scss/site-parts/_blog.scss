@@ -1,0 +1,116 @@
+.blog {
+  padding: 110px;
+  &__title {
+    text-align: center;
+  }
+  &__inner {
+    display: flex !important;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 88px;
+  }
+  &__picture {
+    margin-left: 50px;
+    margin-bottom: 145px;
+    position: relative;
+    cursor: pointer;
+    img {
+      position: relative;
+      z-index: 22;
+      padding: 7px;
+      box-shadow: 0px 5px 19px 1px #dfdcdc;
+      background-color: #fff;
+      // transform: translate3d(67px, 67px, 0);
+    }
+    &::before {
+      content: "";
+      width: 283px;
+      height: 369px;
+
+      position: absolute;
+      top: -50px;
+      left: -50px;
+      border: 9px solid #f9f9f9;
+      border-radius: 6px;
+
+    }
+    &::after {
+      content: "";
+      background-image: linear-gradient(114deg, #65e0bc 0%, #c9f9eb 100%);
+      opacity: 0.72;
+      position: absolute;
+      right: -153px;
+      bottom: -145px;
+      width: 293px;
+      height: 388px
+    }
+  }
+  &__content {
+    width: 50%;
+  }
+  &__subtitle {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  &__text {
+  }
+  &__btn {
+  }
+  .slick-dots {
+    position: absolute;
+    bottom: 101px;
+    right: 313px;
+    width: auto;
+    display: flex;
+    column-gap: 20px;
+    li {
+      position: relative;
+      button {
+        color: transparent;
+        border: 0;
+        outline: none;
+        background: transparent;
+        &::before {
+          content: "";
+          opacity: .75;
+          background: black;
+          width: 14px;
+          height: 15px;
+          position: absolute;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+
+}
+.blog-carous {
+  .slick-arrow {
+    position: absolute;
+    bottom: 87px;
+    right: 0;
+    outline: none;
+    background: transparent;
+    font-size: 0;
+    &::before {
+      content: "⌜";
+      font-size: 36px;
+    }
+  }
+  .slick-prev {
+    right: 60px;
+    transform: rotate(316deg);
+    
+  }
+  .slick-next {
+    right: 61px;
+    transform: rotate(136deg);
+  }
+  .slick-dots li.slick-active button::before {
+    content: "";
+    opacity: .75;
+    background-color: $accentColor;
+   
+  }
+}

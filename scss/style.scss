@@ -1,0 +1,122 @@
+@use 'sass:math';
+@import 'common/fonts';
+@import 'common/icons';
+@import 'common/reset';
+@import 'common/variable';
+@import 'common/mixins';
+
+body {
+  font-size: 15px;
+  color: $textColor;
+  font-family: $fontFamily;
+
+}
+
+h1, h2, h3, h4 {
+  // color: $titleColor;
+}
+button {
+  border: 0;
+  cursor: pointer;
+}
+fieldset {
+  border: 0;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; // прижать футер
+}
+.page {
+  flex: 1 1 auto;
+}
+[class*="container"] {
+  max-width: $maxWidthContainer; 
+  margin: 0 auto;
+  padding: 0 $containerPadding;
+}
+@media (max-width: 1199.98px) {
+  [class*="container"] {
+    max-width: 970px;
+  }
+}
+@media (max-width: $tablet) {
+  [class*="container"] {
+    max-width: 750px;
+  }
+}
+@media (max-width: $mobile) {
+  [class*="container"] {
+    max-width: none;
+  }
+}
+.container-fluid {
+  max-width: 1841px;
+}
+.title {
+  color: #000;
+  // font-size: 45px;
+  @include adaptiv(45, 25);
+  font-weight: 500;
+  font-family: 'Cormorant Garamond', serif;
+}
+.text {
+  padding-top: 16px;
+  padding-bottom: 43px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 2;
+}
+.picture {
+  // background-color: $whiteColor;
+  // padding: 7px;
+  // opacity: 0.72;
+  // box-shadow: 0px 5px 19px 1px rgba(223, 220, 220, 75%);
+  // cursor: pointer;
+  // &:hover {
+  //   box-shadow: none;
+  // }
+}
+.com-btn {
+  display: flex;
+  justify-content: flex-end;
+  &__link {
+    position: relative;
+    color: #0a0a0a;
+    background: $accentColor;
+    padding: 12px 28px;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+    &:hover::after {
+      top: 0;
+      left: 0;
+      transition: all 1s ease-out;
+    }
+    &::after {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: -10px;
+      left: -10px;
+      border: 2px solid $accentColor;
+      transition: all 1s ease-out;
+    }
+  }
+}
+
+
+
+
+@import 'site-parts/header';
+@import 'site-parts/intro';
+@import 'site-parts/nike-air';
+@import 'site-parts/popular-arrivals';
+@import 'site-parts/pre-fall-collections';
+@import 'site-parts/reviews';
+@import 'site-parts/blog';
+
+@import 'site-parts/footer';
+@import 'site-parts/media';

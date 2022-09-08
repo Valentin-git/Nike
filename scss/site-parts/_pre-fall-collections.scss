@@ -1,0 +1,42 @@
+.pre-fall-collections {
+  padding: 95px 0;
+  margin-bottom: 100px;
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__content {
+    width: 50%;
+  }
+  &__title {
+  }
+  &__text {
+  }
+  &__btn {
+    justify-content: start;
+  }
+  &__picture {
+    opacity: 0.72;
+    cursor: pointer;
+    position: relative;
+    &::after {
+      content: "";
+      background-image: linear-gradient( 114deg, rgb(101,224,188) 0%, rgb(201,249,235) 100%);
+      opacity: 0.72;
+      position: absolute;
+      right: -103px;
+      bottom: -103px;
+      width: 293px;
+      height: 388px;
+      // z-index: 122;
+    }
+    img {
+      position: relative;
+      z-index: 22;
+      padding: 7px;
+      box-shadow: 0px 5px 19px 1px #dfdcdc;
+      background-color: $whiteColor;
+    }
+  }
+}

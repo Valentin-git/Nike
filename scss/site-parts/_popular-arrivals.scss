@@ -1,0 +1,71 @@
+.popular-arrivals {
+  &__title {
+  }
+}
+.popular-card {
+  margin-top: 51px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 53px;
+  &__item {
+   
+  }
+  &__picture {
+    margin-bottom: 62px;
+    position: relative;
+    &:hover .popular-card__view-details {
+      opacity: 1;
+      background-color: rgba(130, 244, 211, .8);
+      width: 100%;
+      height: 100%;
+    }
+    // &:hover img {
+    //   background: #000;
+    //   width: 100%;
+    //   height: 100%;
+    // }
+    img {
+      
+    }
+    // &:hover.popular-card__view-details {
+    //   opacity: 1;
+    //   position: absolute;
+    //   top: 0;
+    //   left: 0;
+    // }
+  }
+  &__view-details {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: $whiteColor;
+    border: 1px solid $whiteColor;
+    padding: 10px 10px;
+  }
+  &__content {
+  }
+  &__name-text {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title {
+    color: #000;
+    font-weight: 400;
+  }
+  &__tex {
+    color: #bbb;
+    font-weight: 400;
+  }
+  &__price {
+    color: #999;
+    font-size: 25px;
+    font-weight: 400;
+  }
+}

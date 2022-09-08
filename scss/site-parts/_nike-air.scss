@@ -1,0 +1,39 @@
+.nike-air {
+  padding: 95px 0;
+  &__inner {
+    display: flex;
+    align-items: center;
+  }
+  &__picture {
+    background-color: $whiteColor;
+    padding: 7px;
+    opacity: 0.72;
+    box-shadow: 0px 5px 19px 1px rgba(223, 220, 220, 75%);
+    cursor: pointer;
+    &:hover {
+      box-shadow: none;
+    }
+    img {
+      
+    }
+  }
+  &__content {
+    margin-left: -51px;
+    position: relative;
+  }
+  &__title {
+    // color: #000;
+    // font-size: 45px;
+    // font-weight: 500;
+    // font-family: 'Cormorant Garamond', serif;
+  }
+  &__text {
+    // padding-top: 16px;
+    // padding-bottom: 43px;
+    // font-size: 15px;
+    // font-weight: 300;
+    // line-height: 2;
+  }
+}
+
+

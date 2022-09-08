@@ -1,0 +1,39 @@
+.reviews {
+  background: #f8f8f8;
+  padding: 100px 0;
+}
+.reviews-carous {
+  button {
+    font-size: 0;
+  }
+  .slick-prev {
+    &::before {
+      content: "↼";
+      width: 10px;
+      height: 10px;
+      
+    }
+  }
+  &__item {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__title {
+  }
+  &__text {
+    width: 74%;
+    text-align: center;
+  }
+  &__name {
+    color: #666;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  &__education {
+    color: $accentColor;
+    font-size: 15px;
+    font-size: 15px;
+  }
+}

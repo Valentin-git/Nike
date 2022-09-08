@@ -1,0 +1,87 @@
+//------------------------------- MAX-WIDTH 1700 ---------------------//
+@media (max-width: 1700px) {
+  
+}
+//------------------------------- MAX-WIDTH 1600 ---------------------//
+@media (max-width: 1600px) {
+  
+}
+//------------------------------- MAX-WIDTH 1570 ---------------------//
+@media (max-width: 1570px) {
+  
+}
+//------------------------------- MAX-WIDTH 1500 ---------------------//
+@media (max-width: 1500px) { 
+  
+}
+//------------------------------- MAX-WIDTH 1399.99 desktops ---------//
+@media (max-width: 1399.99px) {
+  
+}
+//------------------------------- MAX-WIDTH 1199.98 -----------------//
+@media (max-width: 1199.98px) {
+  
+}
+//------------------------------- MAX-WIDTH 990.98 tablets ----------//
+@media (max-width: $tablet) {
+  .nike-air {
+    &__inner {
+      flex-direction: column;
+    }
+    &__content {
+      margin-left: 0;
+    }
+  }
+  .popular-card {
+    column-gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .search-social {
+    margin-top: 40px;
+  }
+} 
+//------------------------------- MAX-WIDTH 885 ---------------------//
+@media (max-width: 885px) {
+  
+}
+//------------------------------- MAX-WIDTH 841 ---------------------//
+@media (max-width: 842px) {
+  
+}
+//------------------------------- MAX-WIDTH 767.98 landscape phones ---------------------//
+@media (max-width: $mobile) {
+  .pre-fall-collections {
+    &__inner {
+      flex-direction: column-reverse;
+    }
+    &__content {
+      width: 67%;
+      margin-top: 40px;
+    }
+  }
+  .blog {
+    &__inner {
+      flex-direction: column;
+    }
+  }
+}
+@media (max-width: 646px) {
+ 
+}
+//------------------------------- MAX-WIDTH 575.98 portrait phones ---------------------//
+@media (max-width: 575.98px) {
+  .pre-fall-collections {
+    &__content {
+      width: 100%;
+    }
+  }
+}
+//------------------------------- MAX-WIDTH 500 ---------------------//
+@media (max-width: 500px) {
+  
+}
+//------------------------------- MAX-WIDTH 418 ---------------------//
+@media (max-width: 418px) {
+  
+}
