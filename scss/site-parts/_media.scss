@@ -34,7 +34,7 @@
     }
   }
   .popular-card {
-    column-gap: 30px;
+    gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -53,6 +53,7 @@
 //------------------------------- MAX-WIDTH 767.98 landscape phones ---------------------//
 @media (max-width: $mobile) {
   .pre-fall-collections {
+    padding: 0;
     &__inner {
       flex-direction: column-reverse;
     }
@@ -61,9 +62,23 @@
       margin-top: 40px;
     }
   }
+  .popular-card {
+    padding-bottom: 30px;
+  }
   .blog {
     &__inner {
       flex-direction: column;
+      align-items: center;
+      overflow: hidden;
+    }
+    &__picture {
+      margin-left: 0;
+      &::before {
+        display: none;
+      }
+    }
+    &__content {
+      width: 100%;
     }
   }
 }
@@ -72,11 +87,18 @@
 }
 //------------------------------- MAX-WIDTH 575.98 portrait phones ---------------------//
 @media (max-width: 575.98px) {
+  .intro {
+    min-height: 900px;
+  }
+  .top-bar {
+    padding: 30px 0;
+  }
   .text-left {
     left: 15px;
   }
   .social {
     right: 15px;
+    row-gap: 15px;
   }
   .pre-fall-collections {
     &__content {
@@ -86,6 +108,9 @@
 }
 //------------------------------- MAX-WIDTH 500 ---------------------//
 @media (max-width: 500px) {
+  .intro {
+    min-height: 835px;
+  }
   .footer-menu {
     flex-direction: column;
   }
@@ -99,6 +124,9 @@
     &__btn {
       width: 100%;
     }
+  }
+  .social-footer {
+    justify-content: center;
   }
 }
 //------------------------------- MAX-WIDTH 418 ---------------------//

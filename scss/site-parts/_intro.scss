@@ -78,6 +78,7 @@
   left: 58px;
   bottom: 50px;
   height: 335px;
+  @include adaptiv(15, 12);
   writing-mode: vertical-rl;
   transform: rotate(180deg);
 }
