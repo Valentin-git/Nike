@@ -138,13 +138,13 @@ fieldset {
 
 @media (max-width: 767px) {
   .title {
-    font-size: calc(25px + 34 * ((100vw - 320px) / 1600));
+    font-size: calc(30px + 25.5 * ((100vw - 320px) / 1600));
   }
 }
 
 @media (min-width: 767px) {
   .title {
-    font-size: calc(25px + 20 * (100vw  / 1600));
+    font-size: calc(30px + 15 * (100vw  / 1600));
   }
 }
 
@@ -312,13 +312,13 @@ header {
 
 @media (max-width: 767px) {
   .intro__title {
-    font-size: calc(90px + 102 * ((100vw - 320px) / 1600));
+    font-size: calc(100px + 85 * ((100vw - 320px) / 1600));
   }
 }
 
 @media (min-width: 767px) {
   .intro__title {
-    font-size: calc(90px + 60 * (100vw  / 1600));
+    font-size: calc(100px + 50 * (100vw  / 1600));
   }
 }
 
@@ -327,10 +327,21 @@ header {
   color: #323237;
   background: #82f4d3;
   padding: 20px 25px;
-  font-size: 25px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+@media (max-width: 767px) {
+  .intro__link {
+    font-size: calc(13px + 20.4 * ((100vw - 320px) / 1600));
+  }
+}
+
+@media (min-width: 767px) {
+  .intro__link {
+    font-size: calc(13px + 12 * (100vw  / 1600));
+  }
 }
 
 .intro__link:hover::after {
@@ -749,6 +760,7 @@ header {
   }
   .nike-air__content {
     margin-left: 0;
+    margin-top: 20px;
   }
   .popular-card {
     column-gap: 30px;
@@ -774,7 +786,28 @@ header {
 }
 
 @media (max-width: 575.98px) {
+  .text-left {
+    left: 15px;
+  }
+  .social {
+    right: 15px;
+  }
   .pre-fall-collections__content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-menu {
+    flex-direction: column;
+  }
+  .menu_show {
+    padding: 25px 0;
+  }
+  .form__input {
+    width: 100%;
+  }
+  .form__btn {
     width: 100%;
   }
 }

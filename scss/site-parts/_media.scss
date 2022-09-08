@@ -30,6 +30,7 @@
     }
     &__content {
       margin-left: 0;
+      margin-top: 20px;
     }
   }
   .popular-card {
@@ -71,6 +72,12 @@
 }
 //------------------------------- MAX-WIDTH 575.98 portrait phones ---------------------//
 @media (max-width: 575.98px) {
+  .text-left {
+    left: 15px;
+  }
+  .social {
+    right: 15px;
+  }
   .pre-fall-collections {
     &__content {
       width: 100%;
@@ -79,7 +86,20 @@
 }
 //------------------------------- MAX-WIDTH 500 ---------------------//
 @media (max-width: 500px) {
-  
+  .footer-menu {
+    flex-direction: column;
+  }
+  .menu_show {
+    padding: 25px 0;
+  }
+  .form {
+    &__input {
+      width: 100%;
+    }
+    &__btn {
+      width: 100%;
+    }
+  }
 }
 //------------------------------- MAX-WIDTH 418 ---------------------//
 @media (max-width: 418px) {

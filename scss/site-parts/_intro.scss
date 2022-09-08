@@ -14,7 +14,7 @@
   &__title {
     color: #202123;
     // font-size: 150px;
-    @include adaptiv(150, 90);
+    @include adaptiv(150, 100);
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
   }
@@ -23,7 +23,8 @@
     color: #323237;
     background: $accentColor;
     padding: 20px 25px;
-    font-size: 25px;
+    // font-size: 25px;
+    @include adaptiv(25, 13);
     font-weight: 700;
     text-transform: uppercase;
     // line-height: 2;

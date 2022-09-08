@@ -57,7 +57,7 @@ fieldset {
 .title {
   color: #000;
   // font-size: 45px;
-  @include adaptiv(45, 25);
+  @include adaptiv(45, 30);
   font-weight: 500;
   font-family: 'Cormorant Garamond', serif;
 }
