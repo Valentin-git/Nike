@@ -63,7 +63,7 @@
     }
   }
   .popular-card {
-    padding-bottom: 30px;
+    padding-bottom: 50px;
   }
   .blog {
     &__inner {
@@ -115,6 +115,9 @@
   }
   .blog {
     padding: 50px 0;
+    &__inner {
+      padding-top: 50px;
+    }
     &__picture {
       margin-bottom: 50px;
       &::after {

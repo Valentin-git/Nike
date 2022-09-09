@@ -24,6 +24,7 @@ header {
   border-radius: 50%;
   width: 55px;
   height: 55px;
+  z-index: 100;
 }
 .menu-circle {
   display: flex;
@@ -41,7 +42,8 @@ header {
     display: block;
   }
   &__link {
-    color: $textColor;
+    color: $whiteColor;
+    font-size: 35px;
   }
 }
 // burger---------------------------------------//
@@ -86,4 +88,16 @@ header {
       bottom: calc(50% - 1px);
     }
   }
+}
+.open {
+  display: flex;
+  flex-direction: column;
+  background: $accentColor;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
 }

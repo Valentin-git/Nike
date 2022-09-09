@@ -32,6 +32,7 @@
   justify-content: space-between;
   &__item {
     color: #a6a5a5;
+    @include adaptiv(15, 12);
   }
 }
 
