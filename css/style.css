@@ -832,6 +832,24 @@ header {
   .pre-fall-collections__content {
     width: 100%;
   }
+  .pre-fall-collections__picture::after {
+    display: none;
+  }
+  .reviews {
+    padding: 50px 0;
+  }
+  .blog {
+    padding: 50px 0;
+  }
+  .blog__picture {
+    margin-bottom: 50px;
+  }
+  .blog__picture::after {
+    display: none;
+  }
+  .footer {
+    margin-top: 50px;
+  }
 }
 
 @media (max-width: 500px) {

@@ -104,6 +104,26 @@
     &__content {
       width: 100%;
     }
+    &__picture {
+      &::after {
+        display: none;
+      }
+    }
+  }
+  .reviews {
+    padding: 50px 0;
+  }
+  .blog {
+    padding: 50px 0;
+    &__picture {
+      margin-bottom: 50px;
+      &::after {
+        display: none;
+      }
+    }
+  }
+  .footer {
+    margin-top: 50px;
   }
 }
 //------------------------------- MAX-WIDTH 500 ---------------------//
