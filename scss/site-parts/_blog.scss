@@ -1,5 +1,5 @@
 .blog {
-  padding: 110px 0;
+  padding: rem(110) 0;
   &__title {
     text-align: center;
   }
@@ -7,32 +7,31 @@
     display: flex !important;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 30px;
-    padding-top: 88px;
+    gap: rem(30);
+    padding-top: rem(88);
   }
   &__picture {
-    margin-left: 50px;
-    margin-bottom: 145px;
+    margin-left: rem(50);
+    margin-bottom: rem(145);
     position: relative;
     cursor: pointer;
     img {
       position: relative;
       z-index: 22;
-      padding: 7px;
+      padding: rem(7);
       box-shadow: 0px 5px 19px 1px #dfdcdc;
       background-color: #fff;
-      // transform: translate3d(67px, 67px, 0);
     }
     &::before {
       content: "";
-      width: 283px;
-      height: 369px;
+      width: rem(283);
+      height: rem(369);
 
       position: absolute;
-      top: -50px;
-      left: -50px;
-      border: 9px solid #f9f9f9;
-      border-radius: 6px;
+      top: rem(-50);
+      left: rem(-50);
+      border: rem(9) solid #f9f9f9;
+      border-radius: rem(6);
 
     }
     &::after {
@@ -40,10 +39,10 @@
       background-image: linear-gradient(114deg, #65e0bc 0%, #c9f9eb 100%);
       opacity: 0.72;
       position: absolute;
-      right: -153px;
-      bottom: -145px;
-      width: 293px;
-      height: 388px
+      right: rem(-153);
+      bottom: rem(-145);
+      width: rem(293);
+      height: rem(388);
     }
   }
   &__content {
@@ -51,20 +50,16 @@
   }
   &__subtitle {
     color: #000;
-    font-size: 20px;
+    font-size: rem(20);
     font-weight: 400;
-  }
-  &__text {
-  }
-  &__btn {
   }
   .slick-dots {
     position: absolute;
-    bottom: 101px;
-    right: 313px;
+    bottom: rem(101);
+    right: rem(313);
     width: auto;
     display: flex;
-    column-gap: 20px;
+    column-gap: rem(20);
     li {
       position: relative;
       button {
@@ -76,10 +71,10 @@
           content: "";
           opacity: .75;
           background: black;
-          width: 14px;
-          height: 15px;
+          width: rem(14);
+          height: rem(15);
           position: absolute;
-          border-radius: 10px;
+          border-radius: rem(10);
         }
       }
     }
@@ -89,23 +84,23 @@
 .blog-carous {
   .slick-arrow {
     position: absolute;
-    bottom: 87px;
+    bottom: rem(87);
     right: 0;
     outline: none;
     background: transparent;
     font-size: 0;
     &::before {
       content: "⌜";
-      font-size: 36px;
+      font-size: rem(36);
     }
   }
   .slick-prev {
-    right: 60px;
+    right: rem(60);
     transform: rotate(316deg);
     
   }
   .slick-next {
-    right: 61px;
+    right: rem(61);
     transform: rotate(136deg);
   }
   .slick-dots li.slick-active button::before {

@@ -77,7 +77,7 @@ html, body {
 }
 
 body {
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: #888888;
   font-family: "Poppins", sans-serif;
 }
@@ -149,9 +149,9 @@ fieldset {
 }
 
 .text {
-  padding-top: 16px;
-  padding-bottom: 43px;
-  font-size: 15px;
+  padding-top: 1rem;
+  padding-bottom: 2.6875rem;
+  font-size: 0.9375rem;
   font-weight: 300;
   line-height: 2;
 }
@@ -165,8 +165,8 @@ fieldset {
   position: relative;
   color: #0a0a0a;
   background: #82f4d3;
-  padding: 12px 28px;
-  font-size: 15px;
+  padding: 0.75rem 1.75rem;
+  font-size: 0.9375rem;
   font-weight: 400;
   text-transform: capitalize;
 }
@@ -182,9 +182,9 @@ fieldset {
   width: 100%;
   height: 100%;
   position: absolute;
-  top: -10px;
-  left: -10px;
-  border: 2px solid #82f4d3;
+  top: -0.625rem;
+  left: -0.625rem;
+  border: 0.125rem solid #82f4d3;
   transition: all 1s ease-out;
 }
 
@@ -197,7 +197,7 @@ header {
 }
 
 .top-bar {
-  padding: 60px 0;
+  padding: 3.75rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -214,8 +214,8 @@ header {
   align-items: center;
   background: black;
   border-radius: 50%;
-  width: 55px;
-  height: 55px;
+  width: 3.4375rem;
+  height: 3.4375rem;
   z-index: 100;
 }
 
@@ -224,10 +224,10 @@ header {
 }
 
 .menu-circle span {
-  margin-right: 18px;
-  height: 13px;
-  width: 13px;
-  border: 3px solid #000000;
+  margin-right: 1.125rem;
+  height: 0.8125rem;
+  width: 0.8125rem;
+  border: 0.1875rem solid #000000;
   border-radius: 50%;
 }
 
@@ -241,7 +241,7 @@ header {
 
 .menu__link {
   color: white;
-  font-size: 35px;
+  font-size: 2.1875rem;
 }
 
 .icon-menu {
@@ -307,13 +307,13 @@ header {
   background-image: url(../img/header/bg-intro.jpg);
   background-position: center;
   background-size: cover;
-  min-height: 1020px;
+  min-height: 63.75rem;
   position: relative;
 }
 
 .intro__content {
   position: relative;
-  padding-top: 220px;
+  padding-top: 13.75rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -341,10 +341,10 @@ header {
   position: relative;
   color: #323237;
   background: #82f4d3;
-  padding: 20px 25px;
+  padding: 1.25rem 1.5625rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
 }
 
 @media (max-width: 767px) {
@@ -370,24 +370,24 @@ header {
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 10px;
-  left: -10px;
-  border: 2px solid #82f4d3;
+  top: 0.625rem;
+  left: -0.625rem;
+  border: 0.125rem solid #82f4d3;
   transition: all 1s ease-out;
 }
 
 .social {
   position: absolute;
-  right: 58px;
-  bottom: 50px;
+  right: 3.625rem;
+  bottom: 3.125rem;
   display: flex;
   flex-direction: column;
-  row-gap: 30px;
+  row-gap: 1.875rem;
 }
 
 .social__item {
-  width: 55px;
-  height: 55px;
+  width: 3.4375rem;
+  height: 3.4375rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -406,9 +406,9 @@ header {
 
 .text-left {
   position: absolute;
-  left: 58px;
-  bottom: 50px;
-  height: 335px;
+  left: 3.625rem;
+  bottom: 3.125rem;
+  height: 20.9375rem;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
 }
@@ -426,7 +426,7 @@ header {
 }
 
 .nike-air {
-  padding: 95px 0;
+  padding: 5.9375rem 0;
 }
 
 .nike-air__inner {
@@ -436,7 +436,7 @@ header {
 
 .nike-air__picture {
   background-color: white;
-  padding: 7px;
+  padding: 0.4375rem;
   opacity: 0.72;
   box-shadow: 0px 5px 19px 1px #dfdcdc;
   cursor: pointer;
@@ -447,19 +447,19 @@ header {
 }
 
 .nike-air__content {
-  margin-left: -51px;
+  margin-left: -3.1875rem;
   position: relative;
 }
 
 .popular-card {
-  margin-top: 51px;
+  margin-top: 3.1875rem;
   display: flex;
   justify-content: space-between;
-  column-gap: 53px;
+  column-gap: 3.3125rem;
 }
 
 .popular-card__picture {
-  margin-bottom: 62px;
+  margin-bottom: 3.875rem;
   position: relative;
 }
 
@@ -479,12 +479,12 @@ header {
   align-items: center;
   justify-content: center;
   color: white;
-  border: 1px solid white;
-  padding: 10px 10px;
+  border: 0.0625rem solid white;
+  padding: 0.625rem 0.625rem;
 }
 
 .popular-card__name-text {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   display: flex;
   justify-content: space-between;
 }
@@ -501,13 +501,13 @@ header {
 
 .popular-card__price {
   color: #999;
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-weight: 400;
 }
 
 .pre-fall-collections {
-  padding: 95px 0;
-  margin-bottom: 100px;
+  padding: 5.9375rem 0;
+  margin-bottom: 6.25rem;
 }
 
 .pre-fall-collections__inner {
@@ -535,23 +535,23 @@ header {
   background-image: linear-gradient(114deg, #65e0bc 0%, #c9f9eb 100%);
   opacity: 0.72;
   position: absolute;
-  right: -103px;
-  bottom: -103px;
-  width: 293px;
-  height: 388px;
+  right: -6.4375rem;
+  bottom: -6.4375rem;
+  width: 18.3125rem;
+  height: 24.25rem;
 }
 
 .pre-fall-collections__picture img {
   position: relative;
   z-index: 22;
-  padding: 7px;
+  padding: 0.4375rem;
   box-shadow: 0px 5px 19px 1px #dfdcdc;
   background-color: white;
 }
 
 .reviews {
   background: #f8f8f8;
-  padding: 100px 0;
+  padding: 6.25rem 0;
 }
 
 .reviews-carous button {
@@ -560,8 +560,8 @@ header {
 
 .reviews-carous .slick-prev::before {
   content: "↼";
-  width: 10px;
-  height: 10px;
+  width: 0.625rem;
+  height: 0.625rem;
 }
 
 .reviews-carous__item {
@@ -578,18 +578,18 @@ header {
 
 .reviews-carous__name {
   color: #666;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
 }
 
 .reviews-carous__education {
   color: #82f4d3;
-  font-size: 15px;
-  font-size: 15px;
+  font-size: 0.9375rem;
+  font-size: 0.9375rem;
 }
 
 .blog {
-  padding: 110px 0;
+  padding: 6.875rem 0;
 }
 
 .blog__title {
@@ -600,13 +600,13 @@ header {
   display: flex !important;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 30px;
-  padding-top: 88px;
+  gap: 1.875rem;
+  padding-top: 5.5rem;
 }
 
 .blog__picture {
-  margin-left: 50px;
-  margin-bottom: 145px;
+  margin-left: 3.125rem;
+  margin-bottom: 9.0625rem;
   position: relative;
   cursor: pointer;
 }
@@ -614,20 +614,20 @@ header {
 .blog__picture img {
   position: relative;
   z-index: 22;
-  padding: 7px;
+  padding: 0.4375rem;
   box-shadow: 0px 5px 19px 1px #dfdcdc;
   background-color: #fff;
 }
 
 .blog__picture::before {
   content: "";
-  width: 283px;
-  height: 369px;
+  width: 17.6875rem;
+  height: 23.0625rem;
   position: absolute;
-  top: -50px;
-  left: -50px;
-  border: 9px solid #f9f9f9;
-  border-radius: 6px;
+  top: -3.125rem;
+  left: -3.125rem;
+  border: 0.5625rem solid #f9f9f9;
+  border-radius: 0.375rem;
 }
 
 .blog__picture::after {
@@ -635,10 +635,10 @@ header {
   background-image: linear-gradient(114deg, #65e0bc 0%, #c9f9eb 100%);
   opacity: 0.72;
   position: absolute;
-  right: -153px;
-  bottom: -145px;
-  width: 293px;
-  height: 388px;
+  right: -9.5625rem;
+  bottom: -9.0625rem;
+  width: 18.3125rem;
+  height: 24.25rem;
 }
 
 .blog__content {
@@ -647,17 +647,17 @@ header {
 
 .blog__subtitle {
   color: #000;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
 }
 
 .blog .slick-dots {
   position: absolute;
-  bottom: 101px;
-  right: 313px;
+  bottom: 6.3125rem;
+  right: 19.5625rem;
   width: auto;
   display: flex;
-  column-gap: 20px;
+  column-gap: 1.25rem;
 }
 
 .blog .slick-dots li {
@@ -675,15 +675,15 @@ header {
   content: "";
   opacity: .75;
   background: black;
-  width: 14px;
-  height: 15px;
+  width: 0.875rem;
+  height: 0.9375rem;
   position: absolute;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 
 .blog-carous .slick-arrow {
   position: absolute;
-  bottom: 87px;
+  bottom: 5.4375rem;
   right: 0;
   outline: none;
   background: transparent;
@@ -692,16 +692,16 @@ header {
 
 .blog-carous .slick-arrow::before {
   content: "⌜";
-  font-size: 36px;
+  font-size: 2.25rem;
 }
 
 .blog-carous .slick-prev {
-  right: 60px;
+  right: 3.75rem;
   transform: rotate(316deg);
 }
 
 .blog-carous .slick-next {
-  right: 61px;
+  right: 3.8125rem;
   transform: rotate(136deg);
 }
 
@@ -712,21 +712,21 @@ header {
 }
 
 .footer {
-  margin-top: 100px;
+  margin-top: 6.25rem;
 }
 
 .footer-menu {
-  padding: 55px 0;
+  padding: 3.4375rem 0;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  border-top: 2px solid #f9f9f9;
-  border-bottom: 2px solid #f9f9f9;
+  border-top: 0.125rem solid #f9f9f9;
+  border-bottom: 0.125rem solid #f9f9f9;
 }
 
 .social-footer {
   display: flex;
-  column-gap: 36px;
+  column-gap: 2.25rem;
 }
 
 .social-footer__item {
@@ -742,7 +742,7 @@ header {
 }
 
 .copyright {
-  padding: 25px 0;
+  padding: 1.5625rem 0;
   display: flex;
   justify-content: space-between;
 }
@@ -772,13 +772,13 @@ header {
 }
 
 .form {
-  padding: 30px 0;
+  padding: 1.875rem 0;
 }
 
 .form__input {
-  height: 47px;
-  width: 304px;
-  padding-left: 30px;
+  height: 2.9375rem;
+  width: 19rem;
+  padding-left: 1.875rem;
   border: 0;
   box-shadow: 0px 5px 23.75px 1.25px rgba(231, 231, 231, 0.75);
 }
@@ -789,8 +789,8 @@ header {
 
 .form__btn {
   background: #82f4d3;
-  width: 146px;
-  height: 47px;
+  width: 9.125rem;
+  height: 2.9375rem;
   box-shadow: 0px 5px 19px 1px #f2f1f1;
 }
 
@@ -800,15 +800,15 @@ header {
   }
   .nike-air__content {
     margin-left: 0;
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
   .popular-card {
-    gap: 30px;
+    gap: 1.875rem;
     flex-wrap: wrap;
     justify-content: center;
   }
   .search-social {
-    margin-top: 40px;
+    margin-top: 2.5rem;
   }
 }
 
@@ -821,10 +821,10 @@ header {
   }
   .pre-fall-collections__content {
     width: 67%;
-    margin-top: 40px;
+    margin-top: 2.5rem;
   }
   .popular-card {
-    padding-bottom: 50px;
+    padding-bottom: 3.125rem;
   }
   .blog__inner {
     flex-direction: column;
@@ -847,14 +847,14 @@ header {
     min-height: 900px;
   }
   .top-bar {
-    padding: 30px 0;
+    padding: 1.875rem 0;
   }
   .text-left {
-    left: 15px;
+    left: 0.9375rem;
   }
   .social {
-    right: 15px;
-    row-gap: 15px;
+    right: 0.9375rem;
+    row-gap: 0.9375rem;
   }
   .pre-fall-collections__content {
     width: 100%;
@@ -863,22 +863,22 @@ header {
     display: none;
   }
   .reviews {
-    padding: 50px 0;
+    padding: 3.125rem 0;
   }
   .blog {
-    padding: 50px 0;
+    padding: 3.125rem 0;
   }
   .blog__inner {
-    padding-top: 50px;
+    padding-top: 3.125rem;
   }
   .blog__picture {
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
   }
   .blog__picture::after {
     display: none;
   }
   .footer {
-    margin-top: 50px;
+    margin-top: 3.125rem;
   }
 }
 
@@ -890,7 +890,7 @@ header {
     flex-direction: column;
   }
   .menu_show {
-    padding: 25px 0;
+    padding: 1.5625rem 0;
   }
   .form__input {
     width: 100%;

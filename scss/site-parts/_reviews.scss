@@ -1,6 +1,6 @@
 .reviews {
   background: #f8f8f8;
-  padding: 100px 0;
+  padding: rem(100) 0;
 }
 .reviews-carous {
   button {
@@ -9,8 +9,8 @@
   .slick-prev {
     &::before {
       content: "↼";
-      width: 10px;
-      height: 10px;
+      width: rem(10);
+      height: rem(10);
       
     }
   }
@@ -20,20 +20,18 @@
     justify-content: center;
     align-items: center;
   }
-  &__title {
-  }
   &__text {
     width: 74%;
     text-align: center;
   }
   &__name {
     color: #666;
-    font-size: 18px;
+    font-size: rem(18);
     font-weight: 400;
   }
   &__education {
     color: $accentColor;
-    font-size: 15px;
-    font-size: 15px;
+    font-size: rem(15);
+    font-size: rem(15);
   }
 }

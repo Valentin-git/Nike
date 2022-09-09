@@ -30,16 +30,16 @@
     }
     &__content {
       margin-left: 0;
-      margin-top: 20px;
+      margin-top: rem(20);
     }
   }
   .popular-card {
-    gap: 30px;
+    gap: rem(30);
     flex-wrap: wrap;
     justify-content: center;
   }
   .search-social {
-    margin-top: 40px;
+    margin-top: rem(40);
   }
 } 
 //------------------------------- MAX-WIDTH 885 ---------------------//
@@ -59,11 +59,11 @@
     }
     &__content {
       width: 67%;
-      margin-top: 40px;
+      margin-top: rem(40);
     }
   }
   .popular-card {
-    padding-bottom: 50px;
+    padding-bottom: rem(50);
   }
   .blog {
     &__inner {
@@ -91,14 +91,14 @@
     min-height: 900px;
   }
   .top-bar {
-    padding: 30px 0;
+    padding: rem(30) 0;
   }
   .text-left {
-    left: 15px;
+    left: rem(15);
   }
   .social {
-    right: 15px;
-    row-gap: 15px;
+    right: rem(15);
+    row-gap: rem(15);
   }
   .pre-fall-collections {
     &__content {
@@ -111,22 +111,22 @@
     }
   }
   .reviews {
-    padding: 50px 0;
+    padding: rem(50) 0;
   }
   .blog {
-    padding: 50px 0;
+    padding: rem(50) 0;
     &__inner {
-      padding-top: 50px;
+      padding-top: rem(50);
     }
     &__picture {
-      margin-bottom: 50px;
+      margin-bottom: rem(50);
       &::after {
         display: none;
       }
     }
   }
   .footer {
-    margin-top: 50px;
+    margin-top: rem(50);
   }
 }
 //------------------------------- MAX-WIDTH 500 ---------------------//
@@ -138,7 +138,7 @@
     flex-direction: column;
   }
   .menu_show {
-    padding: 25px 0;
+    padding: rem(25) 0;
   }
   .form {
     &__input {

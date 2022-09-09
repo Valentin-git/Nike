@@ -6,7 +6,7 @@ header {
   z-index: 50;
 }
 .top-bar {
-  padding: 60px 0;
+  padding: rem(60) 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,17 +22,17 @@ header {
 
   background: rgb(0, 0, 0);
   border-radius: 50%;
-  width: 55px;
-  height: 55px;
+  width: rem(55);
+  height: rem(55);
   z-index: 100;
 }
 .menu-circle {
   display: flex;
   span {
-    margin-right: 18px;
-    height: 13px;
-    width: 13px;
-    border: 3px solid #000000;
+    margin-right: rem(18);
+    height: rem(13);
+    width: rem(13);
+    border: rem(3) solid #000000;
     border-radius: 50%;
   }
 }
@@ -43,7 +43,7 @@ header {
   }
   &__link {
     color: $whiteColor;
-    font-size: 35px;
+    font-size: rem(35);
   }
 }
 // burger---------------------------------------//

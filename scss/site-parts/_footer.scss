@@ -1,20 +1,20 @@
 .footer {
-  margin-top: 100px;
+  margin-top: rem(100);
 
 }
 .footer-menu {
-  padding: 55px 0;
+  padding: rem(55) 0;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  border-top: 2px solid #f9f9f9;
-  border-bottom: 2px solid #f9f9f9;
+  border-top: rem(2) solid #f9f9f9;
+  border-bottom: rem(2) solid #f9f9f9;
 }
 
 .social-footer {
   display: flex;
   // justify-content: space-between;
-  column-gap: 36px;
+  column-gap: rem(36);
   &__item {
     cursor: pointer;
     &::before {
@@ -27,7 +27,7 @@
 }
 
 .copyright {
-  padding: 25px 0;
+  padding: rem(25) 0;
   display: flex;
   justify-content: space-between;
   &__item {
@@ -35,35 +35,22 @@
     @include adaptiv(15, 12);
   }
 }
-
-
-.menu_show {
-  &_item {
-  }
-  &__link {
-  }
-}
 .support {
-  &__item {
-  }
   &__link {
     color: $textColor;
   }
 }
-.search-social {
-}
 .search-group {
-
   &__title {
     font-weight: 400;
   }
 }
 .form {
-  padding: 30px 0;
+  padding: rem(30) 0;
   &__input {
-    height: 47px;
-    width: 304px;
-    padding-left: 30px;
+    height: rem(47);
+    width: rem(304);
+    padding-left: rem(30);
     border: 0;
     box-shadow: 0px 5px 23.75px 1.25px rgba(231, 231, 231, 0.75);
     &::placeholder {
@@ -72,12 +59,8 @@
   }
   &__btn {
     background: $accentColor;
-    width: 146px;
-    height: 47px;
+    width: rem(146);
+    height: rem(47);
     box-shadow: 0px 5px 19px 1px rgba(242, 241, 241, 75%);
-  }
-}
-.social-footer {
-  &__item {
   }
 }
