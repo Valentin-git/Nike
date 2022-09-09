@@ -40,10 +40,10 @@ header {
   display: none;
   &_show {
     display: block;
-  }
-  &__link {
-    color: $whiteColor;
-    font-size: rem(35);
+    .menu__link{
+      color: $textColor;
+      font-size: rem(15);
+    }
   }
 }
 // burger---------------------------------------//
@@ -100,4 +100,8 @@ header {
   left: 0;
   align-items: center;
   justify-content: center;
+  .menu__link{
+    color: $whiteColor;
+    font-size: rem(35);
+  }
 }
